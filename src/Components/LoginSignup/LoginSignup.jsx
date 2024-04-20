@@ -35,7 +35,7 @@ function LoginPage() {
       alert("Enter Password")
     }
     else{
-      axios.post("http://localhost:5000/login",{
+      axios.post("",{
         email: email,
         password: password
       })
@@ -66,7 +66,7 @@ function LoginPage() {
       alert("Passwords do not matched!")
     }
     else{
-      axios.post("http://localhost:5000/signup",{
+      axios.post("",{
         email: email,
         password: password,
         confirmpassword :confirmpassword

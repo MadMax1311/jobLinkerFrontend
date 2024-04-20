@@ -16,7 +16,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const Job = ({ jobRole, jobLocation ,selectedFil,fetchData}) => {
-  const api_url = "http://localhost:5000/get_jobs";
+  // const api_url = "http://localhost:5000/get_jobs";
+  const api_url = ''
   const create_row_data = {
     job_role: jobRole ?? "",
     job_location: jobLocation ?? "",
